@@ -1,3 +1,4 @@
+
 """
 Problem:
 
@@ -29,10 +30,8 @@ def run_tests():
 # Edit this code
 def print_nines():
 
-    print(1, "x 9 =", 1*9)
-    print(2, "x 9 =", 2*9)
-    print(3, "x 9 =", 3*9)
-    print(4, "x 9 =", 4*9)
-    print(5, "x 9 =", 5*9)
-    print(6, "x 9 =", 6*9)
-    print(7, "x 9 =", 7*9)
+    for i in range (1,8):
+
+         print(i, "x 9 =", i*9) 
+
+    

@@ -26,13 +26,8 @@ def run_tests():
 
 # Edit this code
 def add_100():
-
-    total = 0
-    total = total + 1
-    total = total + 2
-    total = total + 3
-    total = total + 4
-    total = total + 5
-    total = total + 6
+    total=0
+    for i in range (1, 101):
+        total = total + i
 
     print(total)

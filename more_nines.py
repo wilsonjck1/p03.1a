@@ -29,3 +29,6 @@ def run_tests():
 
 # Edit this code
 def print_nines(n):
+
+   for i in range(1, n+1):
+       print( i, "x 9 =", i*9)
